@@ -6,19 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="flex.css">
     <link rel="stylesheet" href="flex-style.css">
+    <link rel="stylesheet" href="layout.css">
     <link rel="stylesheet" href="index.css">
     <title>Home</title>
 </head>
 
 <body>
-    <div class="flex-row">
-        <img id="b"  src="menu-svgrepo-com.svg" alt="">
-        <img id="a"  src="logo.svg" alt="">
-    </div>
+    <header class="flex-row gap-20">
+        <img id="menu"  src="menu-svgrepo-com.svg" alt="">
+        <img id="logo"  src="logo.svg" alt="">
+    </header>
+    <main class="grow flex-col content-center gap-40">
     <div class="flex-row content-center">
-        <img src="lucian.svg" alt="">
-        <img src="anuncio.svg" alt="">
+        <img class="foto"  src="lucian.svg" alt="">
+        <a href="cursos.html">
+        <img class="foto"  src="anuncio.svg" alt="">            
+        </a>
     </div>
+</main>
 </body>
 
 </html>
